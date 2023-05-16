@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="<%=  root_path %>">AnApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <% if user_signed_in? %>
+      <li class="nav-item">
+        <a class="nav-link" href="<%= edit_user_registration_path %>">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">POsts</a>
+      </li>
+      <li class="nav-item">
+        <%= link_to "LogOut", destroy_user_session_path, method: :delete, data: {turbo_method: :delete}, class:"nav-link" %>
+        <%# <a class="nav-link" href="destroy_user_session_path, method: :delete, data: {turbo_method: :delete}">Logout</a> %>
+      </li>
+      <% else %>
+      <li class="nav-item">
+        <a class="nav-link" href="<%= new_user_session_path %>">LogIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<%= new_user_registration_path %>">SignUp</a>
+      </li>
+    <% end %>
+  </div>
+</nav>
