@@ -1,4 +1,4 @@
-# Things covered and compledted in this application :
+# Things covered and completed in this application :
   
   * Added custom Devise Field - Phone Number 
     *  Custom controller  and views for Devise
