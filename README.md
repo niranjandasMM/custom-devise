@@ -1,25 +1,14 @@
-# README
+# Things covered and compledted in this application :
+  
+  * Added custom Devise Field - Phone Number 
+    *  Custom controller  and views for Devise
+    * Form validation on the same Custom User field.
+  
+  * Installed and integrated Jquery and Vanilla javscript in Form validation.
+  
+  * Installed and INtegrated FOundation framework, Till asset compliation works.
+ 
+  * Custom Javscript for each controllers 
+      * Connected using stimulus and data-controller div tag (connection) 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# custom-devise
+  * Controllers and Javascript COnnectivity setup 
