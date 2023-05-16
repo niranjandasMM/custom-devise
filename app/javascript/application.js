@@ -2,7 +2,16 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-
 import "jquery"
 import "jquery_ujs"
 import "./jquery_ui"
+
+import jquery from "jquery"
+import "foundation-sites"
+
+window.jQuery = jquery
+window.$ = jquery
+
+$(function() {
+  $(document).foundation();
+})

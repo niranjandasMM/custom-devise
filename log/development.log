@@ -1131,3 +1131,350 @@ Processing by User::RegistrationsController#edit as HTML
 Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 0.1ms | Allocations: 11226)
 
 
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:18:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 321)
+  Rendered layout layouts/application.html.erb (Duration: 1817.2ms | Allocations: 693776)
+Completed 500 Internal Server Error in 1827ms (ActiveRecord: 0.0ms | Allocations: 698711)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:18:02 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 55340)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 55579)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:21:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:21:33 +0530
+Processing by User::RegistrationsController#edit as HTML
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 276)
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 282)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 18.1ms | Allocations: 9071)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 20.5ms | Allocations: 10269)
+  Rendered layout layouts/application.html.erb (Duration: 342.5ms | Allocations: 285107)
+Completed 500 Internal Server Error in 393ms (ActiveRecord: 0.8ms | Allocations: 311577)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+  Rendered layout layouts/application.html.erb (Duration: 496.0ms | Allocations: 459366)
+Completed 500 Internal Server Error in 550ms (ActiveRecord: 0.6ms | Allocations: 486441)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:30:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 259)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.0ms | Allocations: 6603)
+  Rendered layout layouts/application.html.erb (Duration: 191.0ms | Allocations: 139556)
+Completed 500 Internal Server Error in 220ms (ActiveRecord: 0.5ms | Allocations: 164902)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:30:17 +0530
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1877)
+  Rendered layout layouts/application.html.erb (Duration: 88.0ms | Allocations: 57278)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.2ms | Allocations: 58787)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:36:47 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 259)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 7.2ms | Allocations: 6603)
+  Rendered layout layouts/application.html.erb (Duration: 174.3ms | Allocations: 134101)
+Completed 500 Internal Server Error in 197ms (ActiveRecord: 0.5ms | Allocations: 159449)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:36:48 +0530
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1877)
+  Rendered layout layouts/application.html.erb (Duration: 91.7ms | Allocations: 57124)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.2ms | Allocations: 58633)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:37:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 259)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.7ms | Allocations: 6603)
+  Rendered layout layouts/application.html.erb (Duration: 174.7ms | Allocations: 139838)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.6ms | Allocations: 165184)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10: 
+    11:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    12:     <%= javascript_importmap_tags %>
+    13:   </head>
+    14: 
+  
+app/views/layouts/application.html.erb:11
+Started GET "/users/edit" for 127.0.0.1 at 2023-05-16 19:38:24 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by User::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 259)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 14.9ms | Allocations: 6603)
+Importmap skipped missing path: jquery-ui.min.js
+Importmap skipped missing path: jquery-ui.min.js
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 448)
+  Rendered layout layouts/application.html.erb (Duration: 188.6ms | Allocations: 144984)
+Completed 200 OK in 223ms (Views: 194.9ms | ActiveRecord: 0.6ms | Allocations: 170360)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:38:33 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 121)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 3.8ms | Allocations: 830)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 14671)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.2ms | Allocations: 15466)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:38:47 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 120)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 6.1ms | Allocations: 1138)
+  Rendered layout layouts/application.html.erb (Duration: 43.9ms | Allocations: 15476)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.3ms | Allocations: 16394)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:38:48 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 3.4ms | Allocations: 822)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 14541)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.2ms | Allocations: 14807)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:39:32 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+Importmap skipped missing path: jquery-ui.min.js
+Importmap skipped missing path: jquery-ui.min.js
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 822)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 44345)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.1ms | Allocations: 44610)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:39:39 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 2.7ms | Allocations: 822)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 14747)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.2ms | Allocations: 15013)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 19:58:32 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 128)
+Importmap skipped missing path: jquery-ui.min.js
+Importmap skipped missing path: jquery-ui.min.js
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 3.9ms | Allocations: 1317)
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 43016)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.5ms | Allocations: 43935)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-16 20:00:25 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:9
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 809)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 14646)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.1ms | Allocations: 14909)
+
+

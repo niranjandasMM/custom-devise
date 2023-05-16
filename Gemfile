@@ -76,9 +76,14 @@ gem 'devise', github: 'heartcombo/devise', branch: 'main'
 
 gem 'jquery-rails'
 
-
 # Use jquery-ui for pretty UI
 gem 'jquery-ui-rails'
 
 # Use Sass to process CSS
 gem "sassc-rails"
+
+gem 'cssbundling-rails'
+
+gem 'foreman', '~> 0.87.2'
+
+
